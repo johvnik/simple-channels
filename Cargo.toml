@@ -1,0 +1,25 @@
+[package]
+name = "simple-channels"
+version = "0.1.0"
+edition = "2024"
+authors = ["Johvnik <you@example.com>"]
+description = "A simple, educational implementation of channels in Rust."
+license = "MIT"
+repository = "https://github.com/johvnik/simple-channels"
+readme = "README.md"
+keywords = ["atomic", "channel", "concurrency", "lock-free", "mpsc"]
+categories = ["concurrency", "data-structures"]
+
+[features]
+default = ["mpsc"]
+mpsc = []
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.6"
+loom = "0.7"
+
+[[bench]]
+name = "mpsc_benchmark"
+harness = false
