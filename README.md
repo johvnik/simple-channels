@@ -1,4 +1,4 @@
-# simple-channels
+# Simple Channels
 
 [![Crates.io](https://img.shields.io/crates/v/simple-channels.svg)](https://crates.io/crates/simple-channels)
 [![Docs.rs](https://docs.rs/simple-channels/badge.svg)](https://docs.rs/simple-channels)
