@@ -1,6 +1,6 @@
 [package]
 name = "simple-channels"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Johvnik <you@example.com>"]
 description = "A simple, educational implementation of channels in Rust."
