@@ -1,5 +1,9 @@
 # simple-channels
 
+[![Crates.io](https://img.shields.io/crates/v/simple-channels.svg)](https://crates.io/crates/simple-channels)
+[![Docs.rs](https://docs.rs/simple-channels/badge.svg)](https://docs.rs/simple-channels)
+[![Crates.io License](https://img.shields.io/crates/l/simple-channels)](https://crates.io/crates/simple-channels)
+
 A collection of simple, thread-safe channel implementations in Rust, created for educational purposes. This project focuses on demonstrating the core principles of concurrent data structures using clear, concise code.
 
 The initial implementation is a Multi-Producer, Single-Consumer (MPSC) channel.
